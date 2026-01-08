@@ -27,7 +27,7 @@ const PORTFOLIO_PROJECTS = [
       { title: "Text-to-Speech support for English & Hindi responses" },
       { title: "Backend APIs built with Express.js" },
     ],
-    Gitlink: "https://github.com/AbhishekID01/Krishna-Chat-Bot",
+    link: "https://github.com/AbhishekID01/Krishna-Chat-Bot",
     linkType: "github",
     image: KrishnaChatBotPage,
   },

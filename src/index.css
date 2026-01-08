@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Space+Grotesk:wght@300..700&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --animate-ping-large: ping-large 1s ease-in-out infinite;
+
+  --animate-move-left: move-left 1s linear infinite;
+
+  --animate-move-right: move-right 1s linear infinite;
+
+  @keyframes ping-large {
+    0% {
+      opacity: 0.6;
+      transform: scale(1);
+    }
+    75% {
+      transform: scale(2);
+      opacity: 0.4;
+    }
+    100% {
+      transform: scale(3);
+      opacity: 0;
+    }
+  }
+
+  @keyframes move-left {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  @keyframes move-right {
+    0% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  background-color: #5555;
+  color: aliceblue;
+}
+
+@layer base {
+  .hero-ring{
+    @apply absolute inset-0  border-2 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border-white/20 shadow-[0_0_80px_inset] shadow-white/20
+  }
+}
+
+@layer utilities {
+  .container {
+    @apply mx-auto w-full
+           px-4 sm:px-6 lg:px-8
+           max-w-5xl;
+  }
+}
+
+

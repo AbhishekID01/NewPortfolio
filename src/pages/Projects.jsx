@@ -1,11 +1,7 @@
 import React from "react";
-
-import darkSaasLandingPage from "../assets/images/dark-saas-landing-page.png";
 import ChatApplicationPage from "../assets/images/ChatApplication.png";
 import ECommercePage from "../assets/images/ECommercePage.png";
 import KrishnaChatBotPage from "../assets/images/KrishnaChatBot.png";
-import lightSaasLandingPage from "../assets/images/light-saas-landing-page.png";
-import aiStartupLandingPage from "../assets/images/ai-startup-landing-page.png";
 import CheckIcon from "../assets/icons/check-circle.svg";
 import Card from "../components/Card";
 

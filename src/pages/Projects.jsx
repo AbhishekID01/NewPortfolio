@@ -7,9 +7,9 @@ import Card from "../components/Card";
 
 const PORTFOLIO_PROJECTS = [
   {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark SaaS Landing Page",
+    company: "Personal Project",
+    year: "2025",
+    title: "Real-Time Chat Application",
     results: [
       { title: "Instant messaging using Socket.io" },
       { title: "Secure backend with Express & MongoDB" },
@@ -19,9 +19,9 @@ const PORTFOLIO_PROJECTS = [
     image: ChatApplicationPage,
   },
   {
-    company: "Innovative Co",
-    year: "2021",
-    title: "Light SaaS Landing Page",
+    company: "Personal Project",
+    year: "2025",
+    title: "AI Spiritual Chatbot",
     results: [
       { title: "Multilingual spiritual chatbot inspired by Bhagavad Gita" },
       { title: "Text-to-Speech support for English & Hindi responses" },
@@ -32,9 +32,9 @@ const PORTFOLIO_PROJECTS = [
     image: KrishnaChatBotPage,
   },
   {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
+    company: "Personal Project",
+    year: "2025",
+    title: "Modern E-Commerce Web Application",
     results: [
       { title: "e-commerce app with product listing & cart" },
       { title: "Built using React, Tailwind & Context API" },
